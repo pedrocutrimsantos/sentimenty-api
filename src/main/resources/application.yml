@@ -1,0 +1,8 @@
+app:
+  ai:
+    provider: ${APP_AI_PROVIDER:huggingface}
+
+huggingface:
+  token: ${HUGGINGFACE_TOKEN:}
+  model: ${HUGGINGFACE_MODEL:cardiffnlp/twitter-xlm-roberta-base-sentiment}
+  timeout-seconds: ${HUGGINGFACE_TIMEOUT_SECONDS:60}
